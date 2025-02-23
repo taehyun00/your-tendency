@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Main from "./pages/main";  // 홈 페이지

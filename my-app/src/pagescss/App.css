@@ -1,6 +1,7 @@
 .App,button {
   font-family: 'ABM';
   text-align: center;
+
 }
 
 .first{
@@ -55,18 +56,35 @@ button:hover{
   color:black;
 }
 
+.Pic{
+  position: absolute;
+  top:6vw;
+  z-index: -1;
+  left: 20px;
+}
+
+
+.reactPic{
+  position: relative;
+  left: 4vw;
+}
+
+.springPic{
+  position: relative;
+  left: -4vw;
+}
 @font-face {
   font-family: 'ABM';
-  src: url('./fonts/AritaBuriKR-Medium.ttf');
+  src: url('../fonts/AritaBuriKR-Medium.ttf');
 }
 
 
 @font-face {
   font-family: 'ABSM';
-  src: url('./fonts/AritaBuriKR-SemiBold.ttf');
+  src: url('../fonts/AritaBuriKR-SemiBold.ttf');
 }
 
 @font-face {
   font-family: 'PRE';
-  src: url('./fonts/Pretendard-SemiBold.ttf');
+  src: url('../fonts/Pretendard-SemiBold.ttf');
 }

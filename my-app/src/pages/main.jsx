@@ -1,8 +1,11 @@
 
-import '../App.css';
+import '../pagescss/App.css';
 import React from 'react';
 import { useNavigate , Route, Routes } from "react-router-dom";
 import { Test } from './test';
+
+import reactPic from '../images/react.svg'
+import springPic from '../images/spring.svg'
 
 function Main() {
   const navi = useNavigate();
@@ -30,6 +33,11 @@ function Main() {
 
       <div className='bt'>
         <button onClick={goToTestPage}>테스트하러가기</button>
+      </div>
+
+      <div className='Pic'>
+      <img src={springPic} className='springPic'></img>
+      <img src={reactPic} className='reactPic'></img>
       </div>
 
       <Routes>

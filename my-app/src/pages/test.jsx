@@ -1,4 +1,4 @@
-import "../App.css";
+import "../pagescss/App.css";
 import React from 'react';
 
 export function Test() {
