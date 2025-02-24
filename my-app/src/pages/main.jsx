@@ -27,8 +27,8 @@ function Main() {
         </div>
       </div>
 
-      <div>
-        <p className='fourth'>아직 해본적없는 너를,<br></br>개발해보고싶어.</p>
+      <div className='fourth'>
+        <p >아직 해본적없는 너를,<br></br>개발해보고싶어.</p>
       </div>
 
       <div className='bt'>

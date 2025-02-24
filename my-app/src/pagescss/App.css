@@ -5,6 +5,8 @@
   width: 100%;
   height: 100%;
 
+  position: relative;
+
 }
 
 button{
@@ -16,33 +18,39 @@ button{
 
 .first{
   font-size: 1.4vw;
-  position: relative;
-  top:7.3vw;
+  position: absolute;
+  top:5vw;
+  left: 2.5vw;
 
 }
 
 .second{
   font-size: 6vw;
+  top:2vw;
+  position: relative;
 }
 
 .thrid{
   font-size: 1.5vw;
   letter-spacing:0.7vw;
   font-family: 'PRE';
-  position: relative;
-  top:-7.5vw;
+  position: absolute;
+  top:14vw;
+  left: 5.1vw;
+
 }
 
 .fourth{
   font-size: 1.5vw;
-  position: relative;
-  top:0vw;
+  position: absolute;
+  left: 43vw;
+  top: 27vw;
 }
 
 .title{
-  position:relative;
-  display: flex;
-  flex-direction: column;
+  position:absolute;
+  left: 35vw;
+
 }
 
 button{
@@ -56,6 +64,9 @@ button{
   color:white; 
 
   transition: all 0.5s;
+  position: absolute;
+  left: 45vw;
+  top:37vw;
 }
 
 button:hover{
@@ -68,18 +79,19 @@ button:hover{
 
 .Pic{
   position: absolute;
-  top:6vw;
+  top:0.3vw;
   z-index: -1;
 }
 
 
 .reactPic{
-  position: relative;
-  left: 4vw;
+  position: absolute;
+  left: 50.79vw;
+  top:0.6vw;
 }
 
 .springPic{
-  position: relative;
+  position: absolute;
   left: -4vw;
 }
 @font-face {
