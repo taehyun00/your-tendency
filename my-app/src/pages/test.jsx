@@ -1,11 +1,13 @@
-import "../pagescss/App.css";
+import "../pagescss/test.css";
 import React from 'react';
 
 export function Test() {
 
   return (
-    <div className="App">
-        <p>여기 시험</p>
+    <div className="MAin">
+        <div className="Rform">
+
+        </div>
     </div>
   );
 }
