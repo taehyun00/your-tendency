@@ -79,14 +79,14 @@ button:hover{
 
 .Pic{
   position: absolute;
-  top:0.3vw;
+  top:9vw;
   z-index: -1;
 }
 
 
 .reactPic{
   position: absolute;
-  left: 50.79vw;
+  left: 58vw;
   top:0.6vw;
 }
 
